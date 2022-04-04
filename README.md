@@ -132,7 +132,7 @@ for value in seqs.values():
 
 for value in seqs.values():
 	for i in range(0, len(value)):
-		seq = value[i:i+len(b)]
-		if seq == b:
+		seq = value[i:i+len(target_sequence)]
+		if seq == target_sequence:
 			print(i)
 ```
